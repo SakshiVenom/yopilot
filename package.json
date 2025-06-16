@@ -1,0 +1,26 @@
+{
+  "name": "yo-pilot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.14",
+    "@langchain/core": "^0.3.40",
+    "@langchain/google-genai": "^0.1.9",
+    "@langchain/groq": "^0.1.3",
+    "@langchain/langgraph": "^0.2.49",
+    "@langchain/mistralai": "^0.2.0",
+    "@langchain/ollama": "^0.2.0",
+    "@langchain/openai": "^0.4.4",
+    "@langchain/xai": "^0.0.2",
+    "axios": "^1.7.9",
+    "yo-pilot": "file:"
+  }
+}
